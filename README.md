@@ -25,7 +25,7 @@ _It uses [email-prompt](https://github.com/zeit/email-prompt) under the hood wit
 
 ## How it works
 
-We [find the username of the current user](https://github.com/bukinoshita/prompt-email/blob/master/lib/get-email.js) and we [get the email of the npm user using the username](https://github.com/bukinoshita/prompt-email/blob/master/lib/get-email.js). It's not a solution 100% bullet proof, that's why I also added the `verify` param so you can skip that verification and direct prompt the user.
+We [find the username of the current user](https://github.com/bukinoshita/prompt-email/blob/master/lib/get-email.js) and we [get the email of the npm user using the username](https://github.com/bukinoshita/prompt-email/blob/master/lib/get-email.js). It's not a solution 100% bullet proof, that's why if it can't find the email it will prompt the user for their email. I also added the `verify` param so you can skip that verification and direct prompt the user.
 
 ## API
 

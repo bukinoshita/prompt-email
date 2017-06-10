@@ -1,4 +1,4 @@
-# prompt-email
+# prompt-email [![Build Status](https://travis-ci.org/bukinoshita/prompt-email.svg?branch=master)](https://travis-ci.org/bukinoshita/prompt-email)
 > Command line interface prompt email with autocompletion, validation and email lookup
 
 ## Install

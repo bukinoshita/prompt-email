@@ -17,7 +17,7 @@ promptEmail()
 // => > Hello bukinoshita@gmail.com
 ```
 
-_It uses [email-prompt](https://github.com/zeit/email-prompt) under the hood with a couple changes._
+_It uses [email-prompt](https://github.com/zeit/email-prompt) under the hood with a [couple changes](https://github.com/bukinoshita/prompt-email/blob/master/lib/email-prompt.js)._
 
 ## Demo
 

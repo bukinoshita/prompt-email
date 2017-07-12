@@ -12,7 +12,7 @@ module.exports = ({ verify = true } = {}) => {
           return
         }
 
-        console.log('\n')
+        process.stdout.write('\n')
 
         emailPrompt().then(email => resolve(email)).catch(err => reject(err))
       })

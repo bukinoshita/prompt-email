@@ -6,6 +6,15 @@
   "repository": "git@github.com:bukinoshita/prompt-email.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "email",
+    "prompt",
+    "autocompletion",
+    "cli",
+    "command-line",
+    "validation",
+    "validate"
+  ],
   "scripts": {
     "precommit": "lint-staged",
     "test": "xo --quiet"
